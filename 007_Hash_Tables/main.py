@@ -17,3 +17,10 @@ user["spell"] = "abra kadabra"
 
 # Using function stored in dict. - O(1)
 user["scream"]()
+
+# Is data in dict. - O(1)
+print("age" in user)
+
+# Deleting data - O(1)
+del user["magic"]
+print(user)
