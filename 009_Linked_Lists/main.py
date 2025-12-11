@@ -26,7 +26,7 @@ class LinkedList:
 
         self.length += 1
 
-    # Add at the begining - O(1)
+    # Add at the beginning - O(1)
     def prepend(self, value):
         new_node = Node(value)
         new_node.next = self.head
